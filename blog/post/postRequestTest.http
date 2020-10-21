@@ -1,0 +1,9 @@
+http://localhost:31966/posts
+
+###
+POST http://localhost:31966/posts HTTP/1.1
+content-type: application/json
+
+{
+    "title": "post title 4"
+}

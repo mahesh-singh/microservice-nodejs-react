@@ -1,0 +1,19 @@
+##http://localhost:4003/posts/535a2683/comments
+
+###
+POST http://ticketing.dev/api/users/signup HTTP/1.1
+content-type: application/json
+
+{
+    "email": "sdfsdf@sdfds.com",
+    "password": "12"
+}   
+
+###
+POST http://ticketing.dev/api/users/signupdsfsdf HTTP/1.1
+content-type: application/json
+
+{
+    "email": "sdfsdf@sdfds.com",
+    "password": "12"
+}   

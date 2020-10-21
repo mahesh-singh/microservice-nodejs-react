@@ -1,0 +1,9 @@
+http://localhost:4003/posts/535a2683/comments
+
+###
+POST http://localhost:4003/posts/535a2683/comments HTTP/1.1
+content-type: application/json
+
+{
+    "comment": "post comment 4"
+}

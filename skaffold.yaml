@@ -1,0 +1,12 @@
+apiVersion: skafflod/v2alpha3
+kind: Config
+deploy:
+  kubectl:
+    manifest:
+      - ./infra/k8s/*
+build:
+  local:
+    push: false
+  artifacts:
+    - image: maheshsinghepc/client
+      context
